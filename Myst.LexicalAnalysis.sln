@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myst.LexicalAnalysis", "Myst.LexicalAnalysis\Myst.LexicalAnalysis.csproj", "{1889FE46-41F7-4B86-9C9A-CC6036F473A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Myst.LexicalAnalysis.Tests", "Myst.LexicalAnalysis.Tests\Myst.LexicalAnalysis.Tests.csproj", "{F50DE987-159C-402A-A0A5-EF662ED45606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1889FE46-41F7-4B86-9C9A-CC6036F473A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1889FE46-41F7-4B86-9C9A-CC6036F473A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1889FE46-41F7-4B86-9C9A-CC6036F473A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1889FE46-41F7-4B86-9C9A-CC6036F473A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50DE987-159C-402A-A0A5-EF662ED45606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50DE987-159C-402A-A0A5-EF662ED45606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50DE987-159C-402A-A0A5-EF662ED45606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50DE987-159C-402A-A0A5-EF662ED45606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B78E93F-F2B2-44DD-9ED1-04D75A178F86}
+	EndGlobalSection
+EndGlobal
