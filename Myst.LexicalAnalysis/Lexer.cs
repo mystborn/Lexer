@@ -19,7 +19,7 @@ namespace Myst.LexicalAnalysis
         public const string Whitespace = "Whitespace";
 
         private List<TokenDefinition> _definitions = new List<TokenDefinition>();
-        private static Regex _whiteSpace = new Regex($@"( *(?<NewLine>({Environment.NewLine}|\n|\r|\t|\v|\f)+)?)+", RegexOptions.Compiled);
+        private static Regex _whiteSpace = new Regex($@"((\r|\t|\v|\f| )*(?<NewLine>({Environment.NewLine}|\n)+)?)+", RegexOptions.Compiled);
 
         /// <summary>
         /// Initializes a new <see cref="Lexer"/>.
