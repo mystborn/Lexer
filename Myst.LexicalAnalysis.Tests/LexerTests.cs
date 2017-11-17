@@ -44,7 +44,7 @@ namespace Myst.LexicalAnalysis.Tests
             lexer.AddDefinition(new TokenDefinition("world", "World"));
 
             var list = new List<Token>(lexer.Tokenize("hello, world\n" +
-                "hi, world\n" +
+                "hi, world\r\t\f\n" +
                 "greetings, world"));
 
             Assert.IsTrue(list[6].Position.Line == 3);
