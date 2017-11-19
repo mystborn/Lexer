@@ -97,7 +97,6 @@ namespace Myst.LexicalAnalysis
 
                     matchLength += whitespace.Length;
                     var newLines = whitespace.Groups["NewLine"];
-                    Console.WriteLine(newLines.Success);
                     if (newLines.Success)
                     {
                         line += newLines.Captures.Count;
