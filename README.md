@@ -8,7 +8,7 @@ This library uses the [MIT Lisence](https://github.com/mystborn/Lexer/blob/maste
 To install this library, you can use the following nuget command:
 
 ```
-Install-Package Myst.LexicalAnalysis -Version 1.2.0 
+Install-Package Myst.LexicalAnalysis -Version 1.2.1
 ```
 
 or you can find it in the nuget package manager.
